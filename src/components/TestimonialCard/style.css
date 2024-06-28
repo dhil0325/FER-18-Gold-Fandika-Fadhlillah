@@ -1,0 +1,36 @@
+
+.testimonal-card {
+    background-color: #F1F3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 619px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.testimonal-card-content {
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    gap:8px;
+    font-size: 14px;
+}
+
+.testimonal-card p:nth-child(1) {
+    font-size: 18px;
+    color: #F9CC00;
+}
+
+.testimonal-card p:nth-child(2) {
+    font-weight: bold;
+}
+
+.testimonal-card-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-right: 46px;
+}
