@@ -1,3 +1,10 @@
+export const navbarLink = [
+    { title: 'Our Services', id_name: 'ourservice' },
+    { title: 'Why Us', id_name: 'whyus' },
+    { title: 'Testimonial', id_name: 'testimonial' },
+    { title: 'FAQ', id_name: 'faq' },
+  ]
+
 export const serviceDetail = [
     {
         id: 1,

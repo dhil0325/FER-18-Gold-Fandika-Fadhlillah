@@ -3,7 +3,7 @@ import { FAQData } from '../../utils/data'
 import { useState } from 'react'
 import FAQAccordion from '../FAQAccordion'
 
-const FAQ = () => {
+const FAQ = ({ id }) => {
     const [openIndex, setOpenIndex] = useState(null);
 
     const toggleAccordion = (index) => {
@@ -15,7 +15,7 @@ const FAQ = () => {
     }
 
     return (
-        <div className='faq'>
+        <div id={id} className='faq'>
             <div className='faq-container'>
                 <div className='faq-title'>
                     <h1>Frequently Asked Question</h1>

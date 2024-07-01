@@ -1,0 +1,12 @@
+.rent-button{
+    background-color: #5CB85F;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: none;
+    width: max-content;
+    font-family: "Arial";
+}

@@ -1,9 +1,9 @@
 import "./style.css"
 import { whyusData } from "../../utils/data"
 import WhyUsCard from "../WhyUsCard"
-function WhyUs() {
+function WhyUs({id}) {
     return (
-        <div className="why-us-container">
+        <div id={id} className="why-us-container">
             <div className="why-us-content">
                 <div className="why-us-title">  
                     <h1>

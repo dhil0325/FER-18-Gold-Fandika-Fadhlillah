@@ -1,10 +1,10 @@
 import "./style.css"
 import img_service from "../../assets/img_service.png"
 import { serviceDetail } from "../../utils/data"
-function Service() {
+function Service({id}) {
 
     return (
-        <div className="service-container">
+        <div id={id} className="service-container">
             <div className="service-content">
                 <img src={img_service} alt="" />
                 <div className="service-container-text">
@@ -21,12 +21,12 @@ function Service() {
                             meeting, dll.
                             </p>
                         </div>
-                        {serviceDetail.map((item) => ( 
-                            <div className="service-text-subtitle2-item">
-                                    <img src={item.icon} alt="" />
-                                    <p>{item.description}</p>
-                            </div>
-                            ))}  
+                        {serviceDetail.map((item) => (
+                        <div key={item.id} className="service-text-subtitle2-item">
+                            <img src={item.icon} alt="" />
+                            <p>{item.description}</p>
+                        </div>
+                        ))} 
                     </div>
                 </div>
             </div>

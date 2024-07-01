@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-function Testimonial() {
+function Testimonial({id}) {
     let slideRef = useRef(null)
 
     const nextSlide = () => {
@@ -33,7 +33,7 @@ function Testimonial() {
     }
 
     return (
-        <div>
+        <div id={id} className='testimonial'>
             <div className='testimonial-container'>
                 <div className='testimonial-title'>
                     <h1>Testimonial</h1>
