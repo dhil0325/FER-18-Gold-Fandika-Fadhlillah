@@ -116,3 +116,38 @@ export const FAQData = [
         answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     }
 ]
+
+export const detailCar = {
+    title: 'Tentang Paket',
+    include: {
+      title: 'Include',
+      data: [
+        'Apa saja yang termasuk dalam paket misal durasi max 12 jam',
+        'Sudah termasuk bensin selama 12 jam',
+        'Sudah termasuk Tiket Wisata',
+        'Sudah termasuk pajak',
+      ],
+    },
+    exclude: {
+      title: 'Exclude',
+      data: [
+        'Tidak termasuk biaya makan sopir Rp 75.000/hari',
+        'Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam',
+        'Tidak termasuk akomodasi penginapan',
+      ],
+    },
+    refund: {
+      title: 'Refund, Reschedule, Overtime',
+      data: [
+        'Tidak termasuk biaya makan sopir Rp 75.000/hari',
+        'Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam',
+        'Tidak termasuk akomodasi penginapan',
+        'Tidak termasuk biaya makan sopir Rp 75.000/hari',
+        'Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam',
+        'Tidak termasuk akomodasi penginapan',
+        'Tidak termasuk biaya makan sopir Rp 75.000/hari',
+        'Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam',
+        'Tidak termasuk akomodasi penginapan',
+      ],
+    },
+}  

@@ -1,4 +1,6 @@
 import './style.css'
+import RentButton from '../RentButton'
+import React from 'react'
 
 function Banner() {
     return (
@@ -9,7 +11,7 @@ function Banner() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className='banner-content-button'>
-                    <button>Mulai Sewa Mobil</button>
+                    <RentButton link={'/search'} />
                 </div>
             </div>
         </div>

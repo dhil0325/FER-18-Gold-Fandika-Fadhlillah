@@ -1,0 +1,7 @@
+.list-car-content {
+    max-width: 1047px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}

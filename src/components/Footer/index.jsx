@@ -1,6 +1,6 @@
 import "./style.css"
 import img_logo from '../../assets/logo-car-rent.png'
-
+import { navbarLink } from '../../utils/data'
 const Footer = () => {
 
     return (
@@ -11,10 +11,11 @@ const Footer = () => {
                 <p>081-233-334-808</p>
             </div>
             <div className="footer-nav">
-                <a href="">Our Services</a>
-                <a href="">Why Us</a>
-                <a href="">Testimonial</a>
-                <a href="">FAQ</a>
+            {navbarLink.map((item, index) => (
+            <a key={index} href={'#' + item.id_name}>
+              {item.title}
+            </a>
+        ))}                
             </div>
             <div className="footer-social">
                 <p>Connect with us</p>

@@ -8,17 +8,17 @@ const SearchCar = ({isDisabled = false, onSearch}) => {
     const [carPrice, setCarPrice] = useState('')
     const [carStatus, setCarStatus] = useState('')
 
-    const handleInputName = (e) => {
-        setCarName(e.target.value)
+    const handleInputName = (event) => {
+        setCarName(event.target.value)
     }
-    const handleSelectCapacity = (e) => {
-        setCarCapacity(e.target.value)
+    const handleSelectCapacity = (event) => {
+        setCarCapacity(event.target.value)
     }
-    const handleSelectPrice = (e) => {
-        setCarPrice(e.target.value)
+    const handleSelectPrice = (event) => {
+        setCarPrice(event.target.value)
     }
-    const handleSelectStatus = (e) => {
-        setCarStatus(e.target.value)
+    const handleSelectStatus = (event) => {
+        setCarStatus(event.target.value)
     }
 
     const sendQuery = (e) => {

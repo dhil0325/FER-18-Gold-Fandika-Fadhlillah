@@ -17,7 +17,7 @@ const Search = () => {
             <NavHome />
             <NavBanner isButtonShow={false} />
             <SearchCar onSearch={navigateToCarPage} />
-            <Footer /> {/* Render the Footer component */}
+            <Footer /> 
         </div>
     )
 }

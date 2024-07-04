@@ -1,0 +1,55 @@
+.card-car{
+    width: calc((1047px - (24px * 2)) / 3);
+    height: 478px;
+    background-color: #ffffff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+}
+
+.card-car button{
+    background-color: #5CB85F;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 14px;
+    border-radius: 2px;
+}
+
+.card-car-description p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-card-description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.card-card-description p:nth-child(1){
+    font-weight: 500;
+}
+.card-card-description p:nth-child(2){
+    font-size: 16px;
+}
+
+.card-car-image{
+    height: 222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card-car-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
