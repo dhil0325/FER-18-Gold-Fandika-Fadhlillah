@@ -7,18 +7,18 @@ import FAQ from "../../components/FAQ";
 import Footer from "../../components/Footer";
 import NavHome from "../../components/NavHome";
 function Home() {
-    return (
-        <>
-            <NavHome />
-            <NavBanner />
-            <Service id="ourservice" />
-            <WhyUs id="whyus" />
-            <Testimonial id="testimonial" />
-            <Banner />
-            <FAQ id="faq" />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <NavHome />
+      <NavBanner />
+      <Service id="ourservice" />
+      <WhyUs id="whyus" />
+      <Testimonial id="testimonial" />
+      <Banner />
+      <FAQ id="faq" />
+      <Footer />
+    </>
+  );
 }
 
-export default Home
+export default Home;

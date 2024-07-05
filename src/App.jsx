@@ -1,8 +1,8 @@
-import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Search from './pages/Search'
-import Car from './pages/Car';
-import CarDetail from './pages/CarDetail';
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Search from "./pages/Search";
+import Car from "./pages/Car";
+import CarDetail from "./pages/CarDetail";
 
 const App = () => (
   <Routes>
