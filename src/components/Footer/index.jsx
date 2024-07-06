@@ -1,6 +1,11 @@
 import "./style.css"
 import img_logo from '../../assets/logo-car-rent.png'
 import { navbarLink } from '../../utils/data'
+import FBIcon from '../../assets/icon_facebook.png'
+import IGIcon from '../../assets/icon_instagram.png'
+import TWIcon from '../../assets/icon_twitter.png'
+import MailIcon from '../../assets/icon_mail.png'
+import TwitchIcon from '../../assets/icon_twitch.png'
 const Footer = () => {
 
     return (
@@ -17,13 +22,17 @@ const Footer = () => {
             </a>
         ))}                
             </div>
-            <div className="footer-social">
-                <p>Connect with us</p>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+            <div className="footer-social-container">
+                <div className="footer-social-text">
+                    <p>Connect with us</p>
+                </div>
+                <div className="footer-social-icon">
+                    <img src={FBIcon} alt="" />
+                    <img src={IGIcon} alt="" />
+                    <img src={TWIcon} alt="" />
+                    <img src={MailIcon} alt="" />
+                    <img src={TwitchIcon} alt="" />
+                </div>
             </div>
             <div className="footer-logo">
                 <div className="footer-logo-text">
