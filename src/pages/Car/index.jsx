@@ -33,7 +33,7 @@ const Car = () => {
                     minPrice: minPrice,
                     maxPrice: maxPrice,
                     page,
-                    pageSize: 10,
+                    pageSize: 9,
                 },
                 timeout: 10000,
             }
